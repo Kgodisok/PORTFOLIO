@@ -18,7 +18,7 @@ const NavBar = () => {
         <>
         <h1 style={styles}>Hello there, Matsepe Kgodiso</h1>
         <p>Welcome to my portfolio</p>
-        <img src='/images/image.png' alt='Profile Photo' style={imageStyles}/>
+        <img src='/images/image.png' alt='Matsepe Kgodiso' style={imageStyles}/>
         </>
     )
 }
