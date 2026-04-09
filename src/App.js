@@ -1,15 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './navbar/names';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Matsepe Kgodiso First React</h1>
-      <p>Welcome to your first React app!</p>
+      <NavBar />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
 
 
