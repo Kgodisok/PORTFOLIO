@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import localData from "../data/data.json";
+
 const Footer = () => {
     const [data, setData] = useState(localData || null);
     
