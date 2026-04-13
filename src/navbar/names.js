@@ -13,12 +13,15 @@ const imageStyles = {
     margin: '20px auto'
 };
 
+/*
 const footerStyles = {
     backgroundColor: '#f1f1f1',
     padding: '10px',
     textAlign: 'center',
     marginTop: '20px'
 };
+*/
+
 const NavBar = () => {
     return (
         <>
