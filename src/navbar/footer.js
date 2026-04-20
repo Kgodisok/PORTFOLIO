@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import localData from "../data/data.json";
 import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedinIn } from "react-icons/fa";
-import { BiColor } from "react-icons/bi";
+
 
 const iconStyles ={
     display: 'flex',
