@@ -46,7 +46,6 @@ const NavBar = () => {
         })
         .then((json) => setData(json))
         .catch((err) => {
-            // keep the localData fallback in state and log the error for debugging
             console.error("Could not fetch /information/data.json, using local data:", err);
         });
     }, []);
@@ -56,7 +55,7 @@ const NavBar = () => {
         <div style={navaBarStyles}>
         <h1 style={nameStyles}>{`${data.name} ${data.surname}`}</h1>
         <img src='/images/profilePhoto.png' alt={`${data.name} ${data.surname}`} style={imageStyles}/>
-        <h2 style={{color: 'white'}}>Aspiring Software Developer</h2>
+        <h2 style={{color: 'white'}}>Junior Software Developer</h2>
         <p style={descriptionStyles}>{data.myDescription}</p>
         <p>Welcome to my portfolio</p>
         <p>I am {`${data.age} `} Years Old</p>
