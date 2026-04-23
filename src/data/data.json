@@ -7,7 +7,11 @@
     "+27-79-633-8442",
     "+27-76-195-9053"
   ],
+  
+  "myDescription": "I am a passionate software developer with a strong foundation in programming languages and web development frameworks. I enjoy creating efficient and scalable solutions to complex problems, and I am always eager to learn new technologies and improve my skills. With a keen eye for detail and a commitment to quality, I strive to deliver high-quality code that meets the needs of users and businesses alike.",
+
   "linkedIn": "https://www.linkedin.com/in/kgodiso-matsepe-86050627b/",
+
   "education": {
     "schoolName": "Tech Performance Center",
     "course": "Software Development/Engineering",
@@ -21,11 +25,13 @@
     "city": "Pretoria",
     "addressCode": "0002"
   },
+
   "languages": {
     
     "homeLanguage": "Southern Sotho -(Segakopa)",
     "additionalLanguages": ["English"]
   },
+
   "skills": {
     "programmingLanguages": [
       "Python",

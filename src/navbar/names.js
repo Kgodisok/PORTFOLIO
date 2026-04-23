@@ -22,9 +22,15 @@ const navaBarStyles = {
 };
 
 const descriptionStyles = {
-    fontSize: '25px',
+    fontSize: '25px',  
     color: 'grey',
-    lineHeight: '1.6'
+    backgroundColor: 'white',
+    border: '2px solid grey',
+    margin: '20px auto',
+    padding: '15px',
+    maxWidth: '950px',
+    borderRadius: '10px',
+    boxShadow: '5px 20px 8px rgba(0, 0, 0, 0.1)',
 };
 
 const NavBar = () => {
@@ -51,7 +57,7 @@ const NavBar = () => {
         <h1 style={nameStyles}>{`${data.name} ${data.surname}`}</h1>
         <img src='/images/profilePhoto.png' alt={`${data.name} ${data.surname}`} style={imageStyles}/>
         <h2 style={{color: 'white'}}>Aspiring Software Developer</h2>
-        <p style={descriptionStyles}>I'm a passionate and dedicated software developer with a strong desire to create innovative solutions. With a solid foundation in programming languages such as JavaScript, Python, and Java, I have experience in developing web applications, mobile apps, and software solutions. I am constantly learning and staying up-to-date with the latest technologies to enhance my skills and deliver high-quality work. I am eager to contribute my knowledge and creativity to projects that make a positive impact.</p>
+        <p style={descriptionStyles}>{data.myDescription}</p>
         <p>Welcome to my portfolio</p>
         <p>I am {`${data.age} `} Years Old</p>
         </div>
